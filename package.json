@@ -1,0 +1,44 @@
+{
+  "name": "@oviirup/tailwindcss-animate",
+  "version": "1.0.9",
+  "description": "A Tailwind CSS plugin for creating beautiful animations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oviirup/tailwindcss-animate"
+  },
+  "author": "Avirup Ghosh (https://github.com/oviirup)",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css",
+    "postcss",
+    "plugin",
+    "animation",
+    "animate",
+    "animated"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "devDependencies": {
+    "husky": "^9",
+    "lint-staged": "^15",
+    "prettier": "^3",
+    "prettier-plugin-pkg": "^0.18",
+    "tailwindcss": "^3"
+  },
+  "lint-staged": {
+    "*.{js,md,json}": "prettier --write"
+  }
+}
