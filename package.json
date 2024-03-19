@@ -1,6 +1,6 @@
 {
   "name": "@oviirup/tailwindcss-animate",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A Tailwind CSS plugin for creating beautiful animations",
   "repository": {
     "type": "git",
@@ -10,10 +10,7 @@
   "license": "MIT",
   "private": false,
   "main": "index.js",
-  "files": [
-    "index.d.ts",
-    "index.js"
-  ],
+  "types": "index.d.ts",
   "keywords": [
     "tailwind",
     "tailwindcss",
